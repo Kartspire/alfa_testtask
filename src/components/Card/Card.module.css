@@ -1,0 +1,23 @@
+.card {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.name {
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.image {
+  max-width: 200px;
+}
