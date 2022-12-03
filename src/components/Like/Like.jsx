@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { addLike, removeLike } from "../../store/usersSlice";
+import { addLike, removeLike } from "../../store/reducers/usersSlice";
 import styles from "./Like.module.css";
 
 export const Like = ({ user }) => {

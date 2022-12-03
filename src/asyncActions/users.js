@@ -1,5 +1,5 @@
-import { removeLoader } from "../store/loaderSlice";
-import { getUsers } from "../store/usersSlice";
+import { removeLoader } from "../store/reducers/loaderSlice";
+import { getUsers } from "../store/reducers/usersSlice";
 
 export const fetchUsers = () => {
   return (dispatch) => {

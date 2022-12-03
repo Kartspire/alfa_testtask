@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { showLiked } from "../../store/usersSlice";
+import { showLiked } from "../../store/reducers/usersSlice";
 import styles from "./Filter.module.css";
 
 export const Filter = () => {

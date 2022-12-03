@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { removeUser } from "../../store/usersSlice";
+import { removeUser } from "../../store/reducers/usersSlice";
 import styles from "./DeleteBtn.module.css";
 
 export const DeleteBtn = ({ user }) => {
